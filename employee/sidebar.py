@@ -1,7 +1,7 @@
 """
 employee/sidebar.py
 
-To set Horilla sidebar for employee
+To set InDhan Portal sidebar for employee
 """
 
 from django.urls import reverse

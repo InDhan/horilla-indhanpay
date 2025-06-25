@@ -1,7 +1,7 @@
 """
 horilla/config.py
 
-Horilla app configurations
+InDhan Portal app configurations
 """
 
 import importlib

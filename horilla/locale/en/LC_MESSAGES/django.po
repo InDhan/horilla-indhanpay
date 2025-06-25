@@ -12896,7 +12896,7 @@ msgid "{} not found."
 msgstr ""
 
 #: .\base\views.py:1428
-msgid "Test mail from Horilla"
+msgid "Test mail from InDhan Portal"
 msgstr ""
 
 #: .\base\views.py:1485
@@ -27945,7 +27945,7 @@ msgstr ""
 
 #: .\templates\initialize_database\horilla_user.html:99
 msgid ""
-"Authenticate with your password to initialize the Horilla HRMS database."
+"Authenticate with your password to initialize the InDhan Portal HRMS database."
 msgstr ""
 
 #: .\templates\initialize_database\horilla_user_signup.html:28
@@ -27953,7 +27953,7 @@ msgid "Sign Up"
 msgstr ""
 
 #: .\templates\initialize_database\horilla_user_signup.html:31
-msgid "Please sign up to access the Horilla HRMS."
+msgid "Please sign up to access the InDhan Portal HRMS."
 msgstr ""
 
 #: .\templates\initialize_database\horilla_user_signup.html:118
@@ -28339,7 +28339,7 @@ msgstr ""
 
 #, fuzzy
 #~| msgid "recruitment"
-#~ msgid "Horilla - Open Recruitments"
+#~ msgid "InDhan Portal - Open Recruitments"
 #~ msgstr "Recruitment"
 
 #, fuzzy
