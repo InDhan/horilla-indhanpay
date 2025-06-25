@@ -176,3 +176,6 @@ This project is licensed under the [LGPL-2.1 License](LICENSE) - see the LICENSE
 [⭐ Star us on GitHub](https://github.com/horilla-opensource/horilla) | [🐛 Report Bug](https://github.com/horilla-opensource/horilla/issues) | [💡 Request Feature](https://github.com/horilla-opensource/horilla/issues)
 
 </div>
+
+
+sudo systemctl status gunicorn
