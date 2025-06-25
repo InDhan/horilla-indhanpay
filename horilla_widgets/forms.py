@@ -1,7 +1,7 @@
 """
 forms.py
 
-Horilla forms
+InDhan Portal forms
 """
 
 from typing import Any, Dict
