@@ -3996,14 +3996,14 @@ def employee_available_leave_count(request):
         employee_id = request.user.employee_get
 
     available_leave = (
-        AvailableLeave.objects.filter(
-            leave_type_id=leave_type_id, employee_id=employee_id
-        ).first()
-        if leave_type_id and employee_id
-        else None
+        AvailableLeave.objects.select_related("leave_type_id", "employee_id")
+        .filter(leave_type_id=leave_type_id, employee_id=employee_id)
+        .first()
     )
-    total_leave_days = available_leave.total_leave_days if available_leave else 0
+
+    total_leave_days = 0
     forcasted_days = 0
+    pending_requests_days = 0
 
     if not leave_type_id or not start_date:
         return render(
